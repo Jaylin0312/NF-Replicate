@@ -5,7 +5,7 @@ function JobTitle() {
         <span>Binance</span>
         <span>&nbsp; 3.7 ★</span>
       </p>
-      <h2 className="Desc text-base font-bold max-w-[200px]">
+      <h2 className="Desc text-base font-bold">
         Senior Deep Learning Engineer
       </h2>
     </div>
