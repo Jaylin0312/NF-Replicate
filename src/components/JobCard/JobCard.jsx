@@ -1,6 +1,7 @@
 import JobTitle from "../Reuseables/JobTitle";
 import JobDateLocation from "../Reuseables/JobDateLocation";
 import JobTag from "../Reuseables/JobTag";
+import JobSalary from "../Reuseables/JobSalary";
 
 function Card() {
   return (
@@ -21,7 +22,12 @@ function Card() {
             </div>
             <JobTitle />
           </div>
-          <JobDateLocation />
+          <div className="whitespace-pre-wrap font-semibold">
+            <div className="mb-1.5 border-b nf-sm:pl-[55px] text-sm">
+              <JobDateLocation />
+              <JobSalary />
+            </div>
+          </div>
         </div>
         <div className="bg-white absolute bottom-0 min-h-[40px] w-full px-[15px] overflow-hidden whitespace-nowrap rounded-b-lg">
           <JobTag />
