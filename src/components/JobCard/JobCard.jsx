@@ -1,5 +1,6 @@
 import JobTitle from "../Reuseables/JobTitle";
 import JobDateLocation from "../Reuseables/JobDateLocation";
+import JobTag from "../Reuseables/JobTag";
 
 function Card() {
   return (
@@ -18,12 +19,12 @@ function Card() {
                 Data Sci
               </div>
             </div>
-            <JobTitle/>
+            <JobTitle />
           </div>
-          <JobDateLocation/>
+          <JobDateLocation />
         </div>
         <div className="bg-white absolute bottom-0 min-h-[40px] w-full px-[15px] overflow-hidden whitespace-nowrap rounded-b-lg">
-          Placeholder
+          <JobTag />
         </div>
       </div>
     </div>
