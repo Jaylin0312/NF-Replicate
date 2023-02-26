@@ -13,6 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   background-color: #f2f2f2;
+  cursor: pointer
 }
 
 .Desc {
@@ -22,6 +23,10 @@
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.tag {
+  font-family: "Roboto Mono", "Consolas", monospace;
 }
 
 .container {

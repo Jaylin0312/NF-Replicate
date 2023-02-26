@@ -25,9 +25,6 @@ module.exports = {
       margin:{
         'nf5': '5px',
       },
-      maxHeight:{
-        'info-card': 'calc(100vh - 106px)',
-      },
     },
   },
   plugins: [],

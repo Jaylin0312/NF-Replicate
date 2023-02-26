@@ -32,7 +32,7 @@ function Card(props) {
               name={job.company[0].name}
             />
           </div>
-          <div className="whitespace-pre-wrap font-bold">
+          <div className="whitespace-pre-wrap font-semibold">
             <div className="mb-1.5 border-b nf-sm:pl-[55px] text-sm">
               <JobDateLocation created={job.created} country={job.country} />
               <JobSalary pay={job.pay} />

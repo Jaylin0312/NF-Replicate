@@ -2,7 +2,7 @@ function DescContent() {
   return (
     <div className="block">
       <div className="font-bold mb-nf5">Job Descriptions</div>
-      <div className="mb-2">
+      <div className="mt-5 mb-2">
         Data-driven based business is the core in helping us to use the
         cloud-native platforms to serve tens of millions of crypto-currency
         users. Engineers and Data Scientists across the company use the data
