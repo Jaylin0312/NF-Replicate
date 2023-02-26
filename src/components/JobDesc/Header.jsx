@@ -9,7 +9,7 @@ function DescHeader(props) {
         <div className="mr-5">
           <img
             className="w-[65px] h-[65px] max-w-none rounded-[4px]"
-            src="/assets/Binance.png"
+            src={selectedJob.company[0].logo}
           />
         </div>
         <div className="ml-auto pl-2.5 nf-sm:order-3">
