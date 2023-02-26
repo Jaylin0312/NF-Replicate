@@ -1,73 +1,107 @@
 {
-    "jobs": [
-      {
-        "id": 1,
-        "logo": "assets/Binance.png",
-        "name": "Binance",
-        "role": "Senior Deep Learning Engineer",
-        "tag": "Data Sci",
-        "created": "2 days ago",
-        "country": "Singapore",
-        "rating": 3.7,
-        "skills": ["Tensorflow", "Pytorch"]
-      },
-      {
-        "id": 2,
-        "logo": "assets/Binance.png",
-        "name": "Tiktok",
-        "role": "iOS Software Engineer - TikTok Live",
-        "tag": "iOS",
-        "created": "2 days ago",
-        "country": "Singapore",
-        "rating": 3.6,
-        "pay": "S$9,986 - S$19,973 / mth",
-        "skills": [ "Objective C", "iOS", "Swift"]
-      },
-      {
-        "id": 3,
-        "logo": "assets/Binance.png",
-        "name": "Tiktok",
-        "role": "Data Scientist Intern (TikTok Data Science) - 2023 Start",
-        "tag": "Data Sci",
-        "created": "2 days ago",
-        "country": "Singapore",
-        "rating": 3.6,
-        "pay": "S$2,818 - S$4,955 / mth",
-        "skills": [ "ETL", "Strategy", "Analytics", "R", "SQL", "Python"]
-      },
-      {
-        "id": 4,
-        "logo": "assets/Binance.png",
-        "name": "Zenika",
-        "role": "Back End Developer",
-        "tag": "Backend",
-        "created": "2 days ago",
-        "country": "Singapore",
-        "rating": 4.5,
-        "skills": [ "Rest API", "Spring", "ORM", "JEE", "Neo4j", "NoSQL", "Hybernate", "MongoDB", "Java"]
-      },
-      {
-        "id": 5,
-        "logo": "assets/Binance.png",
-        "name": "Tiktok",
-        "role": "Site Reliability Engineer, Recommendation Architecture",
-        "tag": "Reliability",
-        "created": "2 days ago",
-        "country": "Singapore",
-        "rating": 3.6,
-        "skills": [ "Shell", "Perl", "C++", "Linux", "Go", "Python"]
-      },
-      {
-        "id": 6,
-        "logo": "assets/Binance.png",
-        "name": "Riot Games",
-        "role": "Tech Lead - Tools (C++)",
-        "tag": "Fullstack",
-        "created": "3 days ago",
-        "country": "Singapore",
-        "rating": 4.2,
-        "skills": [ "C++", "Python", "Java", "Shell", "Perl", "Linux", "Go"]
-      }
-    ]
-  }
-  
+  "jobs": [
+    {
+      "id": 1,
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Binance",
+          "rating": 3.7
+        }
+      ],
+      "role": "Senior Deep Learning Engineer",
+      "tag": "Data Sci",
+      "created": "2 days ago",
+      "country": "Singapore",
+      "skills": ["Tensorflow", "Pytorch"]
+    },
+    {
+      "id": 2,
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Tiktok",
+          "rating": 3.6
+        }
+      ],
+      "role": "iOS Software Engineer - TikTok Live",
+      "tag": "iOS",
+      "created": "2 days ago",
+      "country": "Singapore",
+
+      "pay": "S$9,986 - S$19,973 / mth",
+      "skills": ["Objective C", "iOS", "Swift"]
+    },
+    {
+      "id": 3,
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Tiktok",
+          "rating": 3.6
+        }
+      ],
+      "role": "Data Scientist Intern (TikTok Data Science) - 2023 Start",
+      "tag": "Data Sci",
+      "created": "2 days ago",
+      "country": "Singapore",
+      "pay": "S$2,818 - S$4,955 / mth",
+      "skills": ["ETL", "Strategy", "Analytics", "R", "SQL", "Python"]
+    },
+    {
+      "id": 4,
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Zenika",
+          "rating": 4.5
+        }
+      ],
+      "role": "Back End Developer",
+      "tag": "Backend",
+      "created": "2 days ago",
+      "country": "Singapore",
+      "skills": [
+        "Rest API",
+        "Spring",
+        "ORM",
+        "JEE",
+        "Neo4j",
+        "NoSQL",
+        "Hybernate",
+        "MongoDB",
+        "Java"
+      ]
+    },
+    {
+      "id": 5,
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Tiktok",
+          "rating": 3.6
+        }
+      ],
+      "role": "Site Reliability Engineer, Recommendation Architecture",
+      "tag": "Reliability",
+      "created": "2 days ago",
+      "country": "Singapore",
+      "skills": ["Shell", "Perl", "C++", "Linux", "Go", "Python"]
+    },
+    {
+      "id": 6,
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Riot Games",
+          "rating": 4.2
+        }
+      ],
+      "role": "Tech Lead - Tools (C++)",
+      "tag": "Fullstack",
+      "created": "3 days ago",
+      "country": "Singapore",
+      "skills": ["C++", "Python", "Java", "Shell", "Perl", "Linux", "Go"]
+    }
+  ]
+}
