@@ -1,6 +1,6 @@
 function JobSalary(props) {
   return (
-    <div className="mb-3 whitespace-pre-wrap font-semibold">
+    <div className="mb-3 whitespace-pre-wrap">
     {props.pay && (
       <div>
         <span className="mr-3 pt-[3px]">{props.pay}</span>
