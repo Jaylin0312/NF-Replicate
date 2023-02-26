@@ -5,7 +5,7 @@ import JobSalary from "../Reuseables/JobSalary";
 function TopInfo(props) {
   const job = props.job;
   return (
-    <div className="bg-white flex flex-col rounded-t-lg px-5 pt-5">
+    <div className="bg-white flex flex-col rounded-t-lg px-5 pt-5 pb-2">
       <div className="flex flex-wrap nf-sm:flex-nowrap items-start justify-start">
         <div className="mr-2.5">
           <img
@@ -25,12 +25,13 @@ function TopInfo(props) {
         />
       </div>
       <div className="whitespace-pre-wrap">
-        <div className="mb-1.5 border-b nf-sm:pl-[55px] text-sm text-nf-green2 font-bold">
+        <div className="nf-sm:pl-[55px] text-sm text-nf-green2 font-bold">
           <div className="mb-1.5">
             <JobDateLocation created={job.created} country={job.country} />
           </div>
           <JobSalary pay={job.pay} />
         </div>
+        <div className="h-[0.5px] bg-nf-grey3 mt-2.5"></div>
       </div>
     </div>
   );
