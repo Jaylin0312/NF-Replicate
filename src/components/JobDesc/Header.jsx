@@ -1,7 +1,8 @@
 import JobTitle from "../Reuseables/JobTitle";
 import JobDateLocation from "../Reuseables/JobDateLocation";
 
-function JobDescHeader() {
+function JobDescHeader(props) {
+  const selectedJob = props.selectedJob;
   return (
     <div className="bg-white flex flex-col rounded-t-lg">
       <div className="flex flex-wrap nf-sm:flex-nowrap items-start justify-start">
@@ -23,10 +24,17 @@ function JobDescHeader() {
         </div>
         <div>
           <div className="mb-nf5">
-            <JobTitle />
+            <JobTitle
+              role={selectedJob.role}
+              rating={selectedJob.company[0].rating}
+              name={selectedJob.company[0].name}
+            />
           </div>
           <div>
-            <JobDateLocation />
+            <JobDateLocation
+              created={selectedJob.created}
+              country={selectedJob.country}
+            />
           </div>
         </div>
       </div>
