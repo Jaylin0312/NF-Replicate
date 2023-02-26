@@ -1,5 +1,6 @@
 import DescHeader from "./Header";
 import DescMiddle from "./Middle";
+import DescContent from "./Content";
 
 function JobDescContainer(props) {
   return (
@@ -8,6 +9,8 @@ function JobDescContainer(props) {
         <DescHeader selectedJob={props.selectedJob} />
         <div className="w-breakline h-[0.5px] bg-nf-grey2 my-5 mx-[-20px]"></div>
         <DescMiddle selectedJob={props.selectedJob}/>
+        <div className="w-breakline h-[0.5px] bg-nf-grey2 my-5 mx-[-20px]"></div>
+        <DescContent/>
       </div>
     </div>
   );
