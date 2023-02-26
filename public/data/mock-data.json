@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "12ab5",
       "company": [
         {
           "logo": "assets/Binance.png",
@@ -20,7 +20,7 @@
       "desc": "Data-driven based business is the core in helping us to use the cloud-native platforms to serve tens of millions of crypto-currency users. Engineers and Data Scientists across the company use the data platform to do interesting and impactful analyses for continuous innovations. As a data scientist, you will have the opportunity to leverage rich data (PB-level scalability) and state-of-art machine learning infrastructure to develop data products that are used by our tens of millions of crypto-currency users. You will collaborate with a strong team of engineers, data analysts, business operation and product/marketing managers to define and build solutions, features, algorithms and products based on our rich data and cutting-edge machine learning technology."
     },
     {
-      "id": 2,
+      "id": "74cd5",
       "company": [
         {
           "logo": "assets/Tiktok.png",
@@ -40,7 +40,7 @@
       "desc": "Responsibilities: \n 1. Design, implement the new-user features of our mobile application. \n 2. Collaborate with the design and product teams to create a world-class mobile experience. \n 3. Optimize mobile applications and user experience on the iOS platforms. \n 4. Promote robust and maintainable code, clear documentation, and deliver high quality work on a tight schedule."
     },
     {
-      "id": 3,
+      "id": "66yz0",
       "company": [
         {
           "logo": "assets/Tiktok.png",
@@ -60,7 +60,7 @@
       "desc": "Why Join Us\nAt TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok."
     },
     {
-      "id": 4,
+      "id": "43pl9",
       "company": [
         {
           "logo": "assets/Zenika.png",
@@ -88,7 +88,7 @@
       "desc": "The essentials for a Java dev with us:\n Java 8 has broken the codes of old versions ... Obviously, you master this version, and you also follow the novelties and evolutions of more recent ones Besides, we are talking about Java ... But the Spring ecosystem is part of your daily life. Even though Java and Spring are similar, your expert eye knows how to tell them apart! A big + if you know that Spring is based on Proxies! We don't teach you anything if we tell you that Hibernate is a go-to ORM. Although, essential? Truly ? Not so sure ! You are aware that business constraints can lead you to start with NoSQL databases (MongoDB, Neo4j ...) You stay open ... Even if your heart is inclined towards Spring, your vigil prompts you to take an interest in Quarkus or Micronaut. Finally, for you, the job of a developer also means staying connected to your environment and to other professions in the system. You are familiar with REST, Microservices and Containerization architecture."
     },
     {
-      "id": 5,
+      "id": "22cc5",
       "company": [
         {
           "logo": "assets/Tiktok.png",
@@ -106,7 +106,7 @@
       "desc": "About The Team \n Our Recommendation Architecture Team is responsible for building up and optimizing the architecture for our recommendation system to provide the most stable and best experience for our TikTok users.\nOn the SRE team of Recommendation Architecture, you'll have the opportunity to sharpen your expertise in coding, performance analysis, large-scale system operation, and get heavily involved in the process of hardware/capacity decision-making.\nSRE ensures that the recommendation services at ByteDance have the highest level of availability, as well as creating highly automated systems and pipelines."
     },
     {
-      "id": 6,
+      "id": "17yh3",
       "company": [
         {
           "logo": "assets/RiotGames.png",
