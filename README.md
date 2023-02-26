@@ -64,11 +64,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-yarn 1.22.19
+1. yarn 1.22.19
   ```sh
   npm install --global yarn
   ```
-node 16.17.0
+2. node 16.17.0
   ```sh
   npm install node@latest -g
   ```
@@ -95,4 +95,4 @@ Follow these steps to install and set up this web app locally.
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[project-screenshot]: src/assets/Projectss.png
+[project-screenshot]: ./Projectss.png
