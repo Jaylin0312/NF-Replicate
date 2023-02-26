@@ -57,7 +57,7 @@
       "type": "Contract",
       "seniority": "Intern",
       "years_of_experience": "Information not provided",
-      "desc": "Why Join Us\nAt TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok."
+      "desc": "Why Join Us\n\nAt TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok."
     },
     {
       "id": "43pl9",
@@ -85,7 +85,7 @@
       ],
       "type": "Permanent",
       "years_of_experience": "Information not provided",
-      "desc": "The essentials for a Java dev with us:\n Java 8 has broken the codes of old versions ... Obviously, you master this version, and you also follow the novelties and evolutions of more recent ones Besides, we are talking about Java ... But the Spring ecosystem is part of your daily life. Even though Java and Spring are similar, your expert eye knows how to tell them apart! A big + if you know that Spring is based on Proxies! We don't teach you anything if we tell you that Hibernate is a go-to ORM. Although, essential? Truly ? Not so sure ! You are aware that business constraints can lead you to start with NoSQL databases (MongoDB, Neo4j ...) You stay open ... Even if your heart is inclined towards Spring, your vigil prompts you to take an interest in Quarkus or Micronaut. Finally, for you, the job of a developer also means staying connected to your environment and to other professions in the system. You are familiar with REST, Microservices and Containerization architecture."
+      "desc": "The essentials for a Java dev with us:\nJava 8 has broken the codes of old versions ... Obviously, you master this version, and you also follow the novelties and evolutions of more recent ones Besides, we are talking about Java ... But the Spring ecosystem is part of your daily life. Even though Java and Spring are similar, your expert eye knows how to tell them apart! A big + if you know that Spring is based on Proxies! We don't teach you anything if we tell you that Hibernate is a go-to ORM. Although, essential? Truly ? Not so sure ! You are aware that business constraints can lead you to start with NoSQL databases (MongoDB, Neo4j ...) You stay open ... Even if your heart is inclined towards Spring, your vigil prompts you to take an interest in Quarkus or Micronaut. Finally, for you, the job of a developer also means staying connected to your environment and to other professions in the system. You are familiar with REST, Microservices and Containerization architecture."
     },
     {
       "id": "22cc5",
@@ -103,7 +103,7 @@
       "skills": ["Shell", "Perl", "C++", "Linux", "Go", "Python"],
       "type": "Permanent",
       "years_of_experience": "Information not provided",
-      "desc": "About The Team \n Our Recommendation Architecture Team is responsible for building up and optimizing the architecture for our recommendation system to provide the most stable and best experience for our TikTok users.\nOn the SRE team of Recommendation Architecture, you'll have the opportunity to sharpen your expertise in coding, performance analysis, large-scale system operation, and get heavily involved in the process of hardware/capacity decision-making.\nSRE ensures that the recommendation services at ByteDance have the highest level of availability, as well as creating highly automated systems and pipelines."
+      "desc": "About The Team \n\nOur Recommendation Architecture Team is responsible for building up and optimizing the architecture for our recommendation system to provide the most stable and best experience for our TikTok users.\n\nOn the SRE team of Recommendation Architecture, you'll have the opportunity to sharpen your expertise in coding, performance analysis, large-scale system operation, and get heavily involved in the process of hardware/capacity decision-making.\n\nSRE ensures that the recommendation services at ByteDance have the highest level of availability, as well as creating highly automated systems and pipelines."
     },
     {
       "id": "17yh3",
@@ -122,7 +122,66 @@
       "type": "Permanent",
       "seniority": "Intern",
       "years_of_experience": "At least 8 years",
-      "desc": "That's where YOU come in!\nAs a Tech Lead - Tools on League of Legends, you will work on low-level engine systems and user-facing tools to improve how we author materials, Shaders, and Particle systems.\nThe weight of the position requires collaboration with all art (& technology) disciplines to ensure we have a thoughtful set of tools that content creators can use.\nOur tools are written in C++ and heavily use the QT ecosystem.\nFor this role, you'll report to the team's Engineering Manager. You will also partner with other teams and disciplines to ensure that your work improves those partners' quality of life and effectiveness."
+      "desc": "That's where YOU come in!\n\nAs a Tech Lead - Tools on League of Legends, you will work on low-level engine systems and user-facing tools to improve how we author materials, Shaders, and Particle systems.\nThe weight of the position requires collaboration with all art (& technology) disciplines to ensure we have a thoughtful set of tools that content creators can use.\n\nOur tools are written in C++ and heavily use the QT ecosystem.\n\nFor this role, you'll report to the team's Engineering Manager. You will also partner with other teams and disciplines to ensure that your work improves those partners' quality of life and effectiveness."
+    },
+    {
+      "id": "13yh5",
+      "company": [
+        {
+          "logo": "assets/Hubble.png",
+          "name": "Hubble",
+          "rating": 3.7
+        }
+      ],
+      "role": "Senior Software Engineer",
+      "tag": "Fullstack",
+      "created": "3 days ago",
+      "country": "Singapore",
+      "skills": ["Ruby on Rails", "React Native", "Ruby", "React"],
+      "type": "Permanent",
+      "seniority": "Senior",
+      "years_of_experience": "At least 6 years",
+      "desc": "What you will be doing:\n1. Developing a clean and maintainable code using software engineering best-practices and modern platforms.\n2. Participating in a full product development lifecycle from ideation to live production.\n3. Day-to-day tech operations such as server maintenance and deployment."
+    },
+    {
+      "id": "55gh2",
+      "company": [
+        {
+          "logo": "assets/Binance.png",
+          "name": "Binance",
+          "rating": 3.7
+        }
+      ],
+      "role": "Senior QA Engineer (Exploratory Testing)",
+      "tag": "QA",
+      "created": "4 days ago",
+      "country": "Singapore",
+      "pay": "S$6,000 - S$11,000 / mth",
+      "skills": ["UNIX", "Linux", "Python"],
+      "type": "Permanent",
+      "seniority": "Senior",
+      "years_of_experience": "At least 6 years",
+      "desc": "Binance is looking for an experienced QA Engineer (mid to senior level) to support testing of our high-performance backend software stack.\n\nThis entails the full life cycle of testing from designing tests to identify and understand issues, developing them into scripts and executing them for future iterations."
+    },
+    {
+      "id": "66uk2",
+      "company": [
+        {
+          "logo": "assets/GovTech.png",
+          "name": "GovTech",
+          "rating": 4
+        }
+      ],
+      "role": "Cybersecurity Engineer (National Digital Projects)",
+      "tag": "Cybersec Eng",
+      "created": "4 days ago",
+      "country": "Singapore",
+      "pay": "S$7,333 - S$9,833 / mth",
+      "skills": ["Container", "CI", "AWS"],
+      "type": "Permanent",
+      "seniority": "Senior",
+      "years_of_experience": "At least 8 years",
+      "desc": "Join us as we support Singapore’s vision of building a Smart Nation - a nation of possibilities empowered through info-communications technology and related engineering.\n\nCybersecurity Group (CSG)\n\nThe Cyber Security Group (CSG) is the cybersecurity lead for the Government sector with a mandate to protect the Singapore government’s ICT&SS (Information and Communications Technology & Smart Systems) and build a trusted digital government for Singapore. To achieve these goals, CSG adopts a three-pronged approach: 1) develop cybersecurity capabilities, 2) collaborate with Whole-of-Government (WOG) agencies, and 3) forge industry partnerships.\n\nThis role provides cybersecurity consulting for national level projects, working closely with stakeholders to deliver best in class advisory and solutioning to uplift cybersecurity posture."
     }
   ]
 }
