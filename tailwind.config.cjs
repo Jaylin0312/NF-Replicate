@@ -27,6 +27,9 @@ module.exports = {
       margin:{
         'nf5': '5px',
       },
+      width:{
+        'breakline':'calc(100% + 40px)'
+      }
     },
   },
   plugins: [],

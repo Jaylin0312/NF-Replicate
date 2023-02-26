@@ -24,14 +24,14 @@ function TopInfo(props) {
           name={job.company[0].name}
         />
       </div>
-      <div className="whitespace-pre-wrap">
+      <div className="whitespace-pre-wrap bg-white">
         <div className="nf-sm:pl-[55px] text-sm text-nf-green2 font-bold">
           <div className="mb-1.5">
             <JobDateLocation created={job.created} country={job.country} />
           </div>
           <JobSalary pay={job.pay} />
         </div>
-        <div className="h-[0.5px] bg-nf-grey3 mt-2.5"></div>
+        <div className="h-[1px] bg-nf-grey3 mt-2.5"></div>
       </div>
     </div>
   );
