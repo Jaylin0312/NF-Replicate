@@ -1,25 +1,32 @@
 import { useState, useEffect } from "react";
+import axios from "axios";
 import JobCardContainer from "./JobCard/Container";
 import JobDescContainer from "./JobDesc/Container";
-import axios from "axios";
+import SkeletonView from "./SkeletonView";
 
 function JobPanel() {
   const [jobs, setJobs] = useState([]);
   // Each job card has a unique id. By default the first job card will get selected
   const [selectedJobId, setSelectedJobId] = useState(null);
-  // Simulate real-life api call using axios
+  // show skeleton view for 1 second while fetching data
   useEffect(() => {
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+  // Simulate real-life api call using axios
+  const fetchData = () => {
     axios
       .get("/data/mock-data.json")
       .then((response) => {
         setJobs(response.data.jobs);
         // Set first card to be the selected card
-        setSelectedJobId(response.data.jobs[0].id)
+        setSelectedJobId(response.data.jobs[0].id);
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  };
   if (jobs.length > 0) {
     const selectedJob = jobs.find((job) => job.id === selectedJobId);
     return (
@@ -32,15 +39,15 @@ function JobPanel() {
               setSelectedJobId={setSelectedJobId}
             />
           </div>
-          <div className="hidden lg:block px-[10px] py-[5px]  top-0 sticky self-start grow">
+          <div className="hidden lg:block px-[10px] py-[5px] top-0 sticky self-start grow">
             <JobDescContainer selectedJob={selectedJob} />
           </div>
         </div>
       </div>
     );
   } else {
-    // Return this message when no job data is obtained through the api call
-    return <div>No Listings Observed</div>;
+    // Return skeleton view when no job data is obtained
+    return <SkeletonView />;
   }
 }
 
