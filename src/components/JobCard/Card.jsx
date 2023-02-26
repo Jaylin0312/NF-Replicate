@@ -8,7 +8,7 @@ function Card(props) {
     <div className="p-nf5 w-full">
       <div
         className={`bg-white jobcard rounded-lg shadow-card pb-10 relative hover:translate-y-[-3px] hover:shadow-card-hover duration-200 ${
-          selectedJobId === job.id ? "lg:ring-4 ring-nf-green2" : ""
+          selectedJobId === job.id ? "lg:ring ring-nf-green2" : ""
         }`}
       >
         <TopInfo job={job} />
