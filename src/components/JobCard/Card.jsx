@@ -14,7 +14,7 @@ function Card(props) {
         <TopInfo job={job} />
         <div className="bg-white text-sm absolute bottom-0 min-h-[40px] w-full px-[15px] rounded-b-lg overflow-hidden text-ellipsis whitespace-nowrap">
           {job.skills && (
-            <span className="align-top w-full inline-block overflow-hidden">
+            <span className="align-top w-full inline-block overflow-hidden text-ellipsis">
               {job.skills.map((skill, index) => (
                 <JobTag key={index} skill={skill} />
               ))}
