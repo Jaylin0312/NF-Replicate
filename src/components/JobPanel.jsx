@@ -5,13 +5,16 @@ import axios from "axios";
 
 function JobPanel() {
   const [jobs, setJobs] = useState([]);
-  const [selectedJobId, setSelectedJobId] = useState(1);
+  // Each job card has a unique id. By default the first job card will get selected
+  const [selectedJobId, setSelectedJobId] = useState(null);
   // Simulate real-life api call using axios
   useEffect(() => {
     axios
       .get("/data/mock-data.json")
       .then((response) => {
         setJobs(response.data.jobs);
+        // Set first card to be the selected card
+        setSelectedJobId(response.data.jobs[0].id)
       })
       .catch((error) => {
         console.log(error);
