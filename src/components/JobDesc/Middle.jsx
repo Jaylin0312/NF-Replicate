@@ -15,17 +15,19 @@ function DescMiddle(props) {
       )}
       <div>
         <div className="font-bold">Job Type</div>
-        <div>Permanent</div>
+        <div>{selectedJob.type}</div>
       </div>
-      <div>
-        <div className="font-bold">Seniority</div>
-        <div className="text-nf-grey1 font-bold bg-nf-grey2 rounded-[5px] inline-block">
-          <div className="py-nf5 px-2">Senior</div>
+      {selectedJob.seniority && (
+        <div>
+          <div className="font-bold">Seniority</div>
+          <div className="text-nf-grey1 font-bold bg-nf-grey2 rounded-[5px] inline-block">
+            <div className="py-nf5 px-2">{selectedJob.seniority}</div>
+          </div>
         </div>
-      </div>
+      )}
       <div>
         <div className="font-bold">Years of Experience</div>
-        <div>At least 5 Years</div>
+        <div>{selectedJob.years_of_experience}</div>
       </div>
       <div className="col-span-2 font-bold">
         <div>Tech Stacks</div>
