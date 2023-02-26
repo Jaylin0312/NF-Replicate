@@ -1,7 +1,7 @@
 import JobTitle from "../Reuseables/JobTitle";
 import JobDateLocation from "../Reuseables/JobDateLocation";
 
-function JobDescHeader(props) {
+function DescHeader(props) {
   const selectedJob = props.selectedJob;
   return (
     <div className="bg-white flex flex-col rounded-t-lg">
@@ -41,4 +41,4 @@ function JobDescHeader(props) {
     </div>
   );
 }
-export default JobDescHeader;
+export default DescHeader;

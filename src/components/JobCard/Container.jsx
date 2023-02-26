@@ -7,7 +7,7 @@ function JobCardContainer(props) {
   }
   return props.jobs.map((job) => (
     <div
-      className="lg:w-[427px]"
+      className="w-full lg:w-[427px]"
       key={job.id}
       onClick={() => handleSelect(job.id)}
     >

@@ -20,7 +20,7 @@ function JobPanel() {
     const selectedJob = jobs.find((job) => job.id === selectedJobId);
     return (
       <div className="container mt-5 mb-5">
-        <div className="flex">
+        <div className="lg:flex">
           <div className="flex flex-col">
             <JobCardContainer
               jobs={jobs}
