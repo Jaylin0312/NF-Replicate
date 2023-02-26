@@ -28,7 +28,7 @@ function JobPanel() {
               setSelectedJobId={setSelectedJobId}
             />
           </div>
-          <div className="hidden lg:block px-[10px] py-[5px] sticky grow">
+          <div className="hidden lg:block px-[10px] py-[5px]  top-0 sticky self-start grow">
             <JobDescContainer selectedJob={selectedJob} />
           </div>
         </div>
