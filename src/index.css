@@ -25,10 +25,6 @@
   -webkit-line-clamp: 2;
 }
 
-.tag {
-  font-family: "Roboto Mono", "Consolas", monospace;
-}
-
 .shareimg {
   filter: invert(69%) sepia(50%) saturate(3076%) hue-rotate(96deg)
     brightness(97%) contrast(76%);

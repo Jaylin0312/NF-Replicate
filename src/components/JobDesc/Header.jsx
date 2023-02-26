@@ -36,7 +36,7 @@ function DescHeader(props) {
               name={selectedJob.company[0].name}
             />
           </div>
-          <div>
+          <div className="text-sm text-nf-grey1">
             <JobDateLocation
               created={selectedJob.created}
               country={selectedJob.country}

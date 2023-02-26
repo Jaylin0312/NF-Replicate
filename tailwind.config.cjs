@@ -14,6 +14,7 @@ module.exports = {
         'nf-green2': '#1fc76a',
         'nf-grey1': '#838383',
         'nf-grey2': '#f2f2f2',
+        'nf-black': '#212529'
       },
       boxShadow: {
         'card': '0px 0px 2px rgb(0 0 0 / 25%)',

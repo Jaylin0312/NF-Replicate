@@ -32,8 +32,8 @@ function DescMiddle(props) {
       <div className="col-span-2 font-bold">
         <div>Tech Stacks</div>
         {selectedJob.skills.map((skill, index) => (
-          <div className="inline-block mr-nf5 mb-nf5">
-            <JobTag key={index} skill={skill} />
+          <div key={index} className="inline-block mr-nf5 mb-nf5">
+            <JobTag skill={skill} />
           </div>
         ))}
       </div>
