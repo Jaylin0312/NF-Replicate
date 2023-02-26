@@ -6,6 +6,7 @@ import axios from "axios";
 function JobPanel() {
   const [jobs, setJobs] = useState([]);
   const [selectedJobId, setSelectedJobId] = useState(1);
+  // Simulate real-life api call using axios
   useEffect(() => {
     axios
       .get("/data/mock-data.json")
@@ -35,6 +36,7 @@ function JobPanel() {
       </div>
     );
   } else {
+    // Return this message when no job data is obtained through the api call
     return <div>No Listings Observed</div>;
   }
 }

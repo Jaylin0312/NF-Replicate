@@ -13,10 +13,12 @@ function DescMiddle(props) {
           </div>
         </div>
       )}
-      <div>
-        <div className="font-bold">Job Type</div>
-        <div>{selectedJob.type}</div>
-      </div>
+      {selectedJob.type && (
+        <div>
+          <div className="font-bold">Job Type</div>
+          <div>{selectedJob.type}</div>
+        </div>
+      )}
       {selectedJob.seniority && (
         <div>
           <div className="font-bold">Seniority</div>
@@ -25,18 +27,22 @@ function DescMiddle(props) {
           </div>
         </div>
       )}
-      <div>
-        <div className="font-bold">Years of Experience</div>
-        <div>{selectedJob.years_of_experience}</div>
-      </div>
-      <div className="col-span-2 font-bold">
-        <div>Tech Stacks</div>
-        {selectedJob.skills.map((skill, index) => (
-          <div key={index} className="inline-block mr-nf5 mb-nf5">
-            <JobTag skill={skill} />
-          </div>
-        ))}
-      </div>
+      {selectedJob.years_of_experience && (
+        <div>
+          <div className="font-bold">Years of Experience</div>
+          <div>{selectedJob.years_of_experience}</div>
+        </div>
+      )}
+      {selectedJob.skills && (
+        <div className="col-span-2 font-bold">
+          <div>Tech Stacks</div>
+          {selectedJob.skills.map((skill, index) => (
+            <div key={index} className="inline-block mr-nf5 mb-nf5">
+              <JobTag skill={skill} />
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

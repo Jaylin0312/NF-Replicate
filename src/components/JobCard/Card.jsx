@@ -34,15 +34,21 @@ function Card(props) {
           </div>
           <div className="whitespace-pre-wrap">
             <div className="mb-1.5 border-b nf-sm:pl-[55px] text-sm text-nf-green2 font-bold">
-              <div className="mb-1.5"><JobDateLocation created={job.created} country={job.country} /></div>
+              <div className="mb-1.5">
+                <JobDateLocation created={job.created} country={job.country} />
+              </div>
               <JobSalary pay={job.pay} />
             </div>
           </div>
         </div>
         <div className="bg-white text-sm absolute bottom-0 min-h-[40px] w-full px-[15px] overflow-hidden text-ellipsis whitespace-nowrap rounded-b-lg">
-          {job.skills.map((skill, index) => (
-            <JobTag key={index} skill={skill} />
-          ))}
+          {job.skills && (
+            <div>
+              {job.skills.map((skill, index) => (
+                <JobTag key={index} skill={skill} />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
