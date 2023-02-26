@@ -17,8 +17,14 @@ function DescHeader(props) {
             <div className="text-sm min-w-[108px] py-2.5 bg-nf-green2 font-bold rounded-[5px] mb-[5px] text-center text-white hover:translate-y-[-3px] hover:shadow-button-hover duration-200">
               APPLY
             </div>
-            <div className="text-sm min-w-[108px] py-2.5 outline outline-1 outline-nf-green2 font-bold rounded-[5px] mb-[5px] text-center text-nf-green2 hover:translate-y-[-3px] hover:shadow-button-hover duration-200">
-              SHARE
+            <div className="flex justify-center items-center text-sm min-w-[108px] py-2.5 outline outline-1 outline-nf-green2 font-bold rounded-[5px] mb-[5px] text-center text-nf-green2 hover:translate-y-[-3px] hover:shadow-button-hover duration-200">
+              <span className="mr-1">SHARE</span>
+              <span>
+                <img
+                  className="shareimg inline-block h-4 w-4 mb-[3px]"
+                  src="/assets/Share.svg"
+                />
+              </span>
             </div>
           </div>
         </div>

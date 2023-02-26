@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   background-color: #f2f2f2;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .Desc {
@@ -27,6 +27,11 @@
 
 .tag {
   font-family: "Roboto Mono", "Consolas", monospace;
+}
+
+.shareimg {
+  filter: invert(69%) sepia(50%) saturate(3076%) hue-rotate(96deg)
+    brightness(97%) contrast(76%);
 }
 
 .container {
